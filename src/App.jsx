@@ -19,7 +19,7 @@ function App() {
   }, []);
   
   if (isLoading) {
-    return <div>Loading...</div>; // Show loading indicator
+    return <div>Loading...</div>; 
   }
   return (
     <>
